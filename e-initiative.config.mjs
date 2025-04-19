@@ -4,8 +4,8 @@ export default {
 		title: 'Heading : เขียนใหม่ทั้งฉบับ เลือกตั้ง100%',
 		description:
 			'Subhead : ต้องการ 50,000 ชื่อ เสนอคำถามประชามติ สู่รัฐธรรมนูญใหม่',
-		siteUrl: 'https://wevisdemo.github.io/e-initiative-template',
-		previewImageUrl: 'https://wevisdemo.github.io/e-initiative-template/og.png',
+		siteUrl: 'https://changedvlaw.com',
+		previewImageUrl: 'https://changedvlaw.com/og.png',
 	},
 	petition: {
 		endDate: new Date('2030-10-10 GMT+7'),
