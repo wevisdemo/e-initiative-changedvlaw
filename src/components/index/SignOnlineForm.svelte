@@ -36,6 +36,8 @@
 		},
 		async onSubmit(values) {
 			isLoading = true;
+			console.log(values, 'values');
+
 			try {
 				if (!Value.Check(documentsTable, values)) {
 					throw [...Value.Errors(documentsTable, values)];
@@ -46,6 +48,8 @@
 				clearPad();
 				reset();
 			} catch (e) {
+				console.log(e, 'error');
+
 				errorDialog.showModal();
 			}
 			isLoading = false;

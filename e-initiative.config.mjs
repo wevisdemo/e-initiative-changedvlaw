@@ -1,8 +1,9 @@
 /** @type {import('./src/models/config').EInitiativeConfig} */
 export default {
 	metadata: {
-		title: 'E-Initiative Template',
-		description: 'Customizable template for Thailand E-initiative',
+		title: 'Heading : เขียนใหม่ทั้งฉบับ เลือกตั้ง100%',
+		description:
+			'Subhead : ต้องการ 50,000 ชื่อ เสนอคำถามประชามติ สู่รัฐธรรมนูญใหม่',
 		siteUrl: 'https://wevisdemo.github.io/e-initiative-template',
 		previewImageUrl: 'https://wevisdemo.github.io/e-initiative-template/og.png',
 	},
@@ -30,15 +31,16 @@ export default {
 	},
 	theme: {
 		colors: {
-			primary: '#2E3283',
-			'primary-focus': '#4349BA',
-			secondary: '#2BB25C',
-			'secondary-focus': '#35D26E',
-			accent: '#8054FF',
-			'accent-focus': '#5929E3',
-			neutral: '#000000',
-			'base-100': '#FFFFFF',
-			'base-300': '#E5E6E6',
+			primary: '#CE4545',
+			'primary-focus': '#FF6767',
+			secondary: '#EAEAEA',
+			'secondary-focus': '#F9EDD2',
+			accent: '#EAEAEA',
+			'accent-focus': '#231F20',
+			neutral: '#F9EDD2',
+			'base-100': '#EAEAEA',
+			'base-200': '#6D6E71',
+			'base-300': '#231F20',
 			info: '#F8EB54',
 		},
 		fonts: {
@@ -48,7 +50,7 @@ export default {
 			link: 'IBM Plex Sans Thai Looped',
 		},
 		stylesheets: [
-			'https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+Thai:wght@100..900&display=swap',
+			'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap',
 		],
 	},
 	sheets: {

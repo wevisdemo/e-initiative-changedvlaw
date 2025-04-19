@@ -11,14 +11,14 @@ import { isCampaignEnded } from '../utils/campaign';
 ---
 
 <Body>
-	<div class="flex flex-col">
+	<div class="flex flex-col bg-primary">
 		<LandingSection />
 		<IntroSection />
 		{
 			!isCampaignEnded && (
 				<>
 					<SignSection />
-					{Config.petition.offline?.volunteer && <VolunteerSection />}
+					{/* {Config.petition.offline?.vsolunteer && <VolunteerSection />} */}
 				</>
 			)
 		}

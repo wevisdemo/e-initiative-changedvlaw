@@ -11,7 +11,7 @@ export default {
 				...obj,
 				[key]: [
 					fontFamily.includes(' ') ? `"${fontFamily}"` : fontFamily,
-					...defaultTheme.fontFamily.sans,
+					...defaultTheme.fontFamily.serif,
 				],
 			}),
 			{},
