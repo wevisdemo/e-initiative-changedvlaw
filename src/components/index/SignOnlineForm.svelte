@@ -98,6 +98,24 @@
 			>
 		</div>
 	</ValidationMessage>
+	<ValidationMessage for="date" let:messages>
+		<label class="label" for="date">
+			<span class="body-03 label-text font-bold">วันที่ลงชื่อ*</span>
+		</label>
+		<input
+			id="date"
+			type="date"
+			class="input w-full rounded-sm bg-base-200 {messages
+				? 'input-error'
+				: ''}"
+			disabled={isLoading}
+		/>
+		<div class="label">
+			<span class="body-01 {messages ? 'text-error' : ''}"
+				>ระบุวันที่ลงชื่อ</span
+			>
+		</div>
+	</ValidationMessage>
 	<ValidationMessage for="citizenId" let:messages>
 		<label class="label" for="citizenId">
 			<span class="body-03 label-text font-bold">เลขประจำตัวประชาชน*</span>
@@ -198,7 +216,7 @@
 					>
 						<button
 							type="button"
-							class="body-03 btn bg-base-100 font-bold shadow-xl"
+							class="body-03 btn bg-base-100 font-bold shadow-xl hover:bg-base-200"
 							on:click={() => (signatureEnabled = true)}
 						>
 							คลิกเพื่อกรอกลายเซ็น

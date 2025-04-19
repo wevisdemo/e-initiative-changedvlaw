@@ -39,7 +39,7 @@ export default {
 			'accent-focus': '#231F20',
 			neutral: '#F9EDD2',
 			'base-100': '#EAEAEA',
-			'base-200': '#6D6E71',
+			'base-200': '#F2F2F2',
 			'base-300': '#231F20',
 			info: '#F8EB54',
 		},

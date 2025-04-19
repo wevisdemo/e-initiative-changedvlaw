@@ -14,6 +14,7 @@ export const documentsTable = Object({
 		'location',
 		asString({ minLength: 1, maxLength: MAX_LOCATION_LENGTH }),
 	),
+	date: Column('date', asString({ minLength: 1 })),
 	citizenId: Column('citizenId', asString({ minLength: 13, maxLength: 13 })),
 	prefix: Column('prefix', asOneOf(['นาย', 'นาง', 'นางสาว'])),
 	firstname: Column('firstname', asString({ minLength: 1 })),
