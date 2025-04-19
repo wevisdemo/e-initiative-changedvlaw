@@ -1,15 +1,15 @@
 /** @type {import('./src/models/config').EInitiativeConfig} */
 export default {
 	metadata: {
-		title: 'Heading : เขียนใหม่ทั้งฉบับ เลือกตั้ง100%',
+		title: 'Change DV Law',
 		description:
-			'Subhead : ต้องการ 50,000 ชื่อ เสนอคำถามประชามติ สู่รัฐธรรมนูญใหม่',
+			'ลงชื่อเสนอร่าง พ.ร.บ. คุ้มครองผู้ถูกกระทำด้วยความรุนแรงในครอบครัวฉบับใหม่(ภาคประชาชน)',
 		siteUrl: 'https://changedvlaw.com',
 		previewImageUrl: 'https://changedvlaw.com/og.png',
 	},
 	petition: {
-		endDate: new Date('2030-10-10 GMT+7'),
-		expectedSignatures: 10000,
+		endDate: new Date('2025-06-15 GMT+7'),
+		expectedSignatures: 20000,
 		offline: {
 			formUrl: 'petition-form.pdf',
 			formExampleImageUrl: 'https://placehold.co/280x397?text=example',
@@ -55,8 +55,8 @@ export default {
 	},
 	sheets: {
 		id: '1PPl4bIKrNC68nc9sWDp7aolnTv0xiHZYQRlsvnRpAHc',
-		enableOfflineSignature: true,
-		enableLocations: true,
+		enableOfflineSignature: false,
+		enableLocations: false,
 	},
 	renderer: {
 		templateFile: './public/petition-form.pdf',

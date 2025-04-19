@@ -16,16 +16,20 @@ const documentCount =
 ---
 
 <SectionContainer
-	outerClass="min-h-screen justify-center"
+	outerClass="min-h-screen justify-center text-neutral"
 	innerClass="flex flex-col gap-16 text-center md:flex-row"
 	hideNavbar
 >
-	<div class="flex flex-col items-center justify-center">
-		<h1 class="heading-responsive-03">{Config.metadata.title}</h1>
-		<p>{Config.metadata.description}</p>
+	<div class="flex w-full flex-col items-center justify-center">
+		<h1 class="heading-responsive-03">Change DV Law</h1>
+		<p class="text-nowrap">
+			ลงชื่อเสนอร่าง พ.ร.บ.<br /> คุ้มครองผู้ถูกกระทำด้วยความรุนแรงในครอบครัวฉบับใหม่<br
+			/>
+			(ภาคประชาชน)
+		</p>
 		<img
 			class="mt-4 w-[180px] max-w-[280px] md:w-[280px]"
-			src="https://placehold.co/280x280"
+			src="/content_01.svg"
 			alt=""
 		/>
 	</div>
@@ -40,12 +44,12 @@ const documentCount =
 					ลงแล้ว {documentCount.toLocaleString()} คน
 				</p>
 				<p>
-					{dayElapsed > 0 && <>เหลือเวลาอีก {dayElapsed} วัน</>}
-					(ภายใน {
+					{dayElapsed > 0 && <>ภายใน </>}
+					{
 						Config.petition.endDate.toLocaleDateString('TH-th', {
 							dateStyle: 'medium',
 						})
-					})
+					}
 				</p>
 			</div>
 			<UpdateTimestamp client:load date={new Date()} />
@@ -60,39 +64,22 @@ const documentCount =
 					<div class="space-y-2">
 						<a
 							href="#sign"
-							class="heading-03 btn btn-primary btn-block text-base-100"
+							class="heading-03 btn btn-secondary btn-block text-base-300"
 						>
 							ลงชื่อเลย
 							<PenIcon />
 						</a>
-						{Config.sheets?.enableLocations && (
-							<a
-								href="locations"
-								class="heading-03 btn btn-secondary btn-block"
-							>
-								ดูสถานที่ลงชื่อ
-								<LocationIcon />
-							</a>
-						)}
-						{Config.petition.offline?.volunteer && (
-							<a
-								href="#volunteer"
-								class="heading-03 btn btn-secondary btn-block"
-							>
-								อาสาล่ารายชื่อ
-								<TableIcon />
-							</a>
-						)}
 					</div>
 				)
 			}
 		</div>
 
-		<a class="heading-03 btn btn-link btn-block hover:text-accent"
-			>ทำไมต้องลงชื่อ</a
+		<a
+			class="heading-03 btn btn-link btn-block text-base-100 hover:text-accent"
+			href="#why-sign">ทำไมต้องลงชื่อ</a
 		>
 
-		<div class="flex items-center justify-center gap-3 text-primary">
+		<div class="flex items-center justify-center gap-3 text-base-100">
 			<span class="body-01">แชร์</span>
 			<Sharer />
 		</div>
