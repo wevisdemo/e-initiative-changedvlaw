@@ -64,10 +64,10 @@ export default {
 		fontSize: 10,
 		lineHeight: 14,
 		fields: [
-			{ key: 'location', type: 'text', x: 375, y: 665, maxWidth: 160 },
-			{ key: 'day', type: 'text', x: 317, y: 644 },
-			{ key: 'month', type: 'text', x: 376, y: 644, maxWidth: 83 },
-			{ key: 'year', type: 'text', x: 496, y: 644 },
+			{ key: 'location', type: 'text', x: 375, y: 670, maxWidth: 160 },
+			{ key: 'day', type: 'text', x: 317, y: 649 },
+			{ key: 'month', type: 'text', x: 376, y: 649, maxWidth: 83 },
+			{ key: 'year', type: 'text', x: 496, y: 649 },
 			{ key: 'fullname', type: 'text', x: 229, y: 589, maxWidth: 290 },
 			{
 				key: 'citizenId',
@@ -87,11 +87,11 @@ export default {
 				key: 'signature',
 				type: 'image',
 				x: 325,
-				y: 370,
+				y: 380,
 				maxWidth: 100,
 				maxHeight: 50,
 			},
-			{ key: 'fullname', type: 'text', x: 318, y: 365, maxWidth: 120 },
+			{ key: 'fullname', type: 'text', x: 318, y: 375, maxWidth: 120 },
 		],
 	},
 };
