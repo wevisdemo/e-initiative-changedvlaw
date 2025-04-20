@@ -8,7 +8,7 @@ export default {
 		previewImageUrl: 'https://changedvlaw.com/og.png',
 	},
 	petition: {
-		endDate: new Date('2025-06-15 GMT+7'),
+		endDate: new Date('2025-06-15'),
 		expectedSignatures: 20000,
 		offline: {
 			formUrl: 'petition-form.pdf',
