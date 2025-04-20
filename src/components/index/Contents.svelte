@@ -50,7 +50,11 @@
 	<!-- Point 1 -->
 	<div class=" flex flex-col md:flex-row">
 		<div class="text-center">
-			<img src="/content_02.svg" alt="Point 1" class="mx-auto mb-4 w-[320px]" />
+			<img
+				src="/content_02.svg"
+				alt="Point 1"
+				class="mx-auto mb-4 mr-5 w-[320px]"
+			/>
 		</div>
 		<div
 			class="mx-auto my-auto flex h-[102px] w-[317px] items-center justify-center rounded-lg bg-primary-focus text-center md:h-[114px]"
@@ -64,7 +68,11 @@
 	<!-- Point 2 -->
 	<div class=" flex flex-col md:flex-row">
 		<div class="text-center">
-			<img src="/content_03.svg" alt="Point 2" class="mx-auto mb-4 w-[320px]" />
+			<img
+				src="/content_03.svg"
+				alt="Point 2"
+				class="mx-auto mb-4 mr-5 w-[320px]"
+			/>
 		</div>
 		<div
 			class="mx-auto my-auto flex h-[102px] w-[317px] items-center justify-center rounded-lg bg-primary-focus text-center md:h-[114px]"
@@ -79,7 +87,11 @@
 	<!-- Point 3 -->
 	<div class=" flex flex-col md:flex-row">
 		<div class="text-center">
-			<img src="/content_04.svg" alt="Point 3" class="mx-auto mb-4 w-[320px]" />
+			<img
+				src="/content_04.svg"
+				alt="Point 3"
+				class="mx-auto mb-4 mr-5 w-[320px]"
+			/>
 		</div>
 		<div
 			class="mx-auto my-auto flex h-[102px] w-[317px] items-center justify-center rounded-lg bg-primary-focus text-center md:h-[114px]"
@@ -94,7 +106,11 @@
 	<!-- Point 4 -->
 	<div class=" flex flex-col md:flex-row">
 		<div class="text-center">
-			<img src="/content_05.svg" alt="Point 4" class="mx-auto mb-4 w-[320px]" />
+			<img
+				src="/content_05.svg"
+				alt="Point 4"
+				class="mx-auto mb-4 mr-5 w-[320px]"
+			/>
 		</div>
 		<div
 			class="mx-auto my-auto flex h-[102px] w-[317px] items-center justify-center rounded-lg bg-primary-focus text-center md:h-[114px]"
@@ -108,7 +124,11 @@
 	<!-- Point 5 -->
 	<div class=" flex flex-col md:flex-row">
 		<div class="text-center">
-			<img src="/content_06.svg" alt="Point 5" class="mx-auto mb-4 w-[320px]" />
+			<img
+				src="/content_06.svg"
+				alt="Point 5"
+				class="mx-auto mb-4 mr-5 w-[320px]"
+			/>
 		</div>
 		<div
 			class="mx-auto my-auto flex h-[102px] w-[317px] items-center justify-center rounded-lg bg-primary-focus text-center md:h-[114px]"
@@ -123,7 +143,11 @@
 	<!-- Point 6 -->
 	<div class=" flex flex-col md:flex-row">
 		<div class="text-center">
-			<img src="/content_07.svg" alt="Point 6" class="mx-auto mb-4 w-[320px]" />
+			<img
+				src="/content_07.svg"
+				alt="Point 6"
+				class="mx-auto mb-4 mr-5 w-[320px]"
+			/>
 		</div>
 		<div
 			class="mx-auto my-auto flex h-[102px] w-[317px] items-center justify-center rounded-lg bg-primary-focus text-center md:h-[114px]"

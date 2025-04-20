@@ -10,8 +10,7 @@ export default {
 			(obj, [key, fontFamily]) => ({
 				...obj,
 				[key]: [
-					fontFamily.includes(' ') ? `"${fontFamily}"` : fontFamily,
-					...defaultTheme.fontFamily.serif,
+					fontFamily.includes(' ') ? `"${fontFamily}, sans-serif"` : fontFamily,
 				],
 			}),
 			{},
