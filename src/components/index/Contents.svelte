@@ -7,7 +7,11 @@
 		ทำไมต้องลงชื่อ
 	</h2>
 	<div class="mb-8 flex justify-center">
-		<img src="/content_01.svg" alt="Change DV Law Logo" class="w-[300px]" />
+		<img
+			src="/content_01.svg"
+			alt="Change DV Law Logo"
+			class=" w-[280px] md:w-[300px]"
+		/>
 	</div>
 	<p class="heading-responsive-01 mx-auto max-w-2xl text-secondary-focus">
 		แก้กฎหมาย..หยุดความรุนแรงในครอบครัว
@@ -78,7 +82,7 @@
 			class="mx-auto my-auto flex h-[102px] w-[317px] items-center justify-center rounded-lg bg-primary-focus text-center md:h-[114px]"
 		>
 			<p class="heading-03 text-secondary-focus">
-				เมื่อรับแจ้งเห<br /> เจ้าหน้าที่ต้องลงพื้นที่ช่วยเหลือ<br
+				เมื่อรับแจ้งเหตุ<br /> เจ้าหน้าที่ต้องลงพื้นที่ช่วยเหลือ<br
 				/>ผู้ถูกกระทำอย่างทันท่วงที
 			</p>
 		</div>
