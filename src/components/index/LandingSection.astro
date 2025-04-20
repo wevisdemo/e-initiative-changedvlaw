@@ -10,9 +10,7 @@ import { countSubmittedDocuments } from '../../utils/firebase';
 import { countOfflineSignatures } from '../../utils/sheets';
 import Sharer from '../Sharer.svelte';
 
-const documentCount =
-	(await countSubmittedDocuments()) +
-	(Config.sheets?.enableOfflineSignature ? await countOfflineSignatures() : 0);
+const documentCount = await countSubmittedDocuments();
 ---
 
 <SectionContainer
