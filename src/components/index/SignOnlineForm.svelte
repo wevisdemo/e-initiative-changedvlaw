@@ -270,7 +270,7 @@
 			<span>ลงชื่อสำเร็จ!</span>
 		</div>
 		<div class="modal-action">
-			<button class="btn btn-block">ปิด</button>
+			<button class="btn btn-block hover:text-white">ปิด</button>
 		</div>
 	</form>
 </dialog>
@@ -281,7 +281,7 @@
 			เกิดข้อผิดพลาดในการลงชื่อ โปรดลองลงชื่อใหม่อีกครั้ง
 		</p>
 		<div class="modal-action">
-			<button class="btn btn-block">ปิด</button>
+			<button class="btn btn-block hover:text-white">ปิด</button>
 		</div>
 	</form>
 </dialog>
