@@ -1,3 +1,17 @@
 html {
 	scroll-behavior: smooth;
 }
+
+@font-face {
+	font-family: CSPraJad;
+	font-style: normal;
+	font-display: swap;
+	src: url('../fonts/CSPraJad.otf');
+}
+
+@font-face {
+	font-family: CSPraJad-bold;
+	font-style: normal;
+	font-display: swap;
+	src: url('../fonts/CSPraJad-bold.otf');
+}

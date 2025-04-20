@@ -99,7 +99,10 @@
 			disabled={isLoading}
 		/>
 		<div class="label">
-			<span class="body-01 {messages ? 'text-error' : ''}"
+			<span
+				class="body-01-spacial opacity-50 {messages
+					? 'text-error opacity-100'
+					: ''}"
 				>ระบุสถานที่กรอกข้อมูลเช่น จังหวัด (ไม่เกิน {MAX_LOCATION_LENGTH} ตัวอักษร)</span
 			>
 		</div>
@@ -118,8 +121,10 @@
 			disabled={isLoading}
 		/>
 		<div class="label">
-			<span class="body-01 {messages ? 'text-error' : ''}"
-				>ระบุวันที่ลงชื่อ</span
+			<span
+				class="body-01-spacial opacity-50 {messages
+					? 'text-error opacity-100'
+					: ''}">ระบุวันที่ลงชื่อ</span
 			>
 		</div>
 	</ValidationMessage>
@@ -134,8 +139,10 @@
 			disabled={isLoading}
 		/>
 		<div class="label">
-			<span class="body-01 {messages ? 'text-error' : ''}"
-				>ใส่เลขประจำตัวประชาชนที่ถูกต้อง 13 หลักไม่ต้องเว้นวรรค</span
+			<span
+				class="body-01-spacial opacity-50 {messages
+					? 'text-error opacity-100'
+					: ''}">ใส่เลขประจำตัวประชาชนที่ถูกต้อง 13 หลักไม่ต้องเว้นวรรค</span
 			>
 		</div>
 	</ValidationMessage>
@@ -169,8 +176,10 @@
 					disabled={isLoading}
 				/>
 				<div class="label">
-					<span class="body-01 {messages ? 'text-error' : ''}"
-						>ระบุชื่อจริงเป็นภาษาไทย</span
+					<span
+						class="body-01-spacial opacity-50 {messages
+							? 'text-error opacity-100'
+							: ''}">ระบุชื่อจริงเป็นภาษาไทย</span
 					>
 				</div>
 			</ValidationMessage>
@@ -187,8 +196,10 @@
 			disabled={isLoading}
 		/>
 		<div class="label">
-			<span class="body-01 {messages ? 'text-error' : ''}"
-				>ระบุนามสกุลเป็นภาษาไทย</span
+			<span
+				class="body-01-spacial opacity-50 {messages
+					? 'text-error opacity-100'
+					: ''}">ระบุนามสกุลเป็นภาษาไทย</span
 			>
 		</div>
 	</ValidationMessage>
@@ -234,12 +245,16 @@
 			</div>
 
 			<div class="label">
-				<span class="body-01 text-error">{messages ? 'กรุณาลงชื่อ' : ''}</span>
+				<span class="body-01-spacial text-error"
+					>{messages ? 'กรุณาลงชื่อ' : ''}</span
+				>
 			</div>
 		</div>
 	</ValidationMessage>
 	<div class="form-control">
-		<label class="label cursor-pointer justify-normal space-x-2">
+		<label
+			class="body-01-spacial label mx-auto cursor-pointer justify-normal space-x-2"
+		>
 			<input type="checkbox" name="consent" class="checkbox-primary checkbox" />
 			<span class="label-text"
 				>ข้าพเจ้ายินยอมลงชื่อ <a href="privacy-policy" class="underline"

@@ -14,10 +14,11 @@ import Sharer from '../Sharer.svelte';
 	hideNavbar
 >
 	<div class="flex w-full flex-col items-center justify-center">
-		<h1 class="heading-responsive-03 font-looped">Change DV Law</h1>
-		<p class="text-nowrap">
-			ลงชื่อเสนอร่าง พ.ร.บ.<br /> คุ้มครองผู้ถูกกระทำด้วยความรุนแรงในครอบครัวฉบับใหม่<br
-			/>
+		<h1 class="heading-responsive-03">Change DV Law</h1>
+		<p class="body-03-spacial text-nowrap font-bold">
+			ลงชื่อเสนอร่าง พ.ร.บ.<br class="hidden md:block" /> คุ้มครองผู้ถูกกระทำ<br
+				class="md:hidden"
+			/>ด้วยความรุนแรงในครอบครัวฉบับใหม่<br />
 			(ภาคประชาชน)
 		</p>
 		<img
@@ -27,7 +28,7 @@ import Sharer from '../Sharer.svelte';
 		/>
 	</div>
 	<div class="my-auto flex w-full max-w-md flex-col space-y-2">
-		<p class="body_03 mt-1">
+		<p class="body-03-regular mt-1">
 			ต้องการ {Config.petition.expectedSignatures.toLocaleString()} รายชื่อ
 		</p>
 
@@ -36,7 +37,7 @@ import Sharer from '../Sharer.svelte';
 				<p class="heading-responsive-02">
 					ลงแล้ว {countSubmittedDocuments()} คน
 				</p>
-				<p>
+				<p class="body-03-regular">
 					{dayElapsed > 0 && <>ภายใน </>}
 					{
 						Config.petition.endDate.toLocaleDateString('TH-th', {
