@@ -92,11 +92,8 @@ export const submitDocument = async (document: FormDocument) => {
 export const countSubmittedDocuments = async (): Promise<number> => {
 	try {
 		await signInAsAdmin();
-
 		const q = query(collection(firestore, COLLECTION.Documents));
 		const snapshot = await getCountFromServer(q);
-		console.log('snapshot', snapshot);
-
 		return snapshot.data().count;
 	} catch (e) {
 		console.warn(e);

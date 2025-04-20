@@ -3,14 +3,9 @@ import Config from '../../../e-initiative.config.mjs';
 import SectionContainer from '../SectionContainer.astro';
 import UpdateTimestamp from '../UpdateTimestamp.svelte';
 import PenIcon from '../icons/PenIcon.svelte';
-import LocationIcon from '../icons/LocationIcon.svelte';
-import TableIcon from '../icons/TableIcon.svelte';
 import { dayElapsed, isCampaignEnded } from '../../utils/campaign';
 import { countSubmittedDocuments } from '../../utils/firebase';
-import { countOfflineSignatures } from '../../utils/sheets';
 import Sharer from '../Sharer.svelte';
-
-const documentCount = await countSubmittedDocuments();
 ---
 
 <SectionContainer
@@ -39,7 +34,7 @@ const documentCount = await countSubmittedDocuments();
 		<div class="flex flex-col gap-2">
 			<div>
 				<p class="heading-responsive-02">
-					ลงแล้ว {documentCount.toLocaleString()} คน
+					ลงแล้ว {countSubmittedDocuments()} คน
 				</p>
 				<p>
 					{dayElapsed > 0 && <>ภายใน </>}
