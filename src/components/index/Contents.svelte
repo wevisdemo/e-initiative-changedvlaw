@@ -53,7 +53,7 @@
 			<img
 				src="/content_02.svg"
 				alt="Point 1"
-				class="mx-auto mb-4 mr-5 w-[320px]"
+				class="mx-auto mb-4 w-[320px] md:mr-5"
 			/>
 		</div>
 		<div
@@ -71,7 +71,7 @@
 			<img
 				src="/content_03.svg"
 				alt="Point 2"
-				class="mx-auto mb-4 mr-5 w-[320px]"
+				class="mx-auto mb-4 w-[320px] md:mr-5"
 			/>
 		</div>
 		<div
@@ -90,7 +90,7 @@
 			<img
 				src="/content_04.svg"
 				alt="Point 3"
-				class="mx-auto mb-4 mr-5 w-[320px]"
+				class="mx-auto mb-4 w-[320px] md:mr-5"
 			/>
 		</div>
 		<div
@@ -109,7 +109,7 @@
 			<img
 				src="/content_05.svg"
 				alt="Point 4"
-				class="mx-auto mb-4 mr-5 w-[320px]"
+				class="mx-auto mb-4 w-[320px] md:mr-5"
 			/>
 		</div>
 		<div
@@ -127,7 +127,7 @@
 			<img
 				src="/content_06.svg"
 				alt="Point 5"
-				class="mx-auto mb-4 mr-5 w-[320px]"
+				class="mx-auto mb-4 w-[320px] md:mr-5"
 			/>
 		</div>
 		<div
@@ -146,7 +146,7 @@
 			<img
 				src="/content_07.svg"
 				alt="Point 6"
-				class="mx-auto mb-4 mr-5 w-[320px]"
+				class="mx-auto mb-4 w-[320px] md:mr-5"
 			/>
 		</div>
 		<div
