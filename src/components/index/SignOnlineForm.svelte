@@ -28,15 +28,21 @@
 				]),
 			);
 
+			if (!/^[ก-๙\s]+$/.test(values.firstname)) {
+				errors.firstname = 'ระบุชื่อจริงเป็นภาษาไทย  ';
+			}
+
+			if (!/^[ก-๙\s]+$/.test(values.lastname)) {
+				errors.lastname = 'ระบุนามสกุลเป็นภาษาไทย';
+			}
+
 			if (!validateCitizenId(values.citizenId)) {
 				errors.citizenId = 'Invalid citizen ID';
 			}
-
 			return errors;
 		},
 		async onSubmit(values) {
 			isLoading = true;
-			console.log(values, 'values');
 
 			try {
 				if (!Value.Check(documentsTable, values)) {
@@ -104,6 +110,7 @@
 		</label>
 		<input
 			id="date"
+			name="date"
 			type="date"
 			class="input w-full rounded-sm bg-base-200 {messages
 				? 'input-error'
@@ -205,7 +212,7 @@
 				{#if signatureEnabled}
 					<button
 						type="button"
-						class="btn btn-accent btn-outline absolute bottom-4 right-[10px] z-20"
+						class="btn btn-outline absolute bottom-4 right-[10px] z-20"
 						on:click={clearPad}
 					>
 						ล้าง <ResetIcon />
@@ -243,7 +250,7 @@
 	</div>
 	<button
 		type="submit"
-		class="body-03 btn btn-primary mt-2 w-full text-base font-bold text-base-100 disabled:text-base-100"
+		class="body-03 btn btn-primary mt-2 w-full text-base font-bold text-base-100"
 		disabled={!$data.consent || isLoading}
 	>
 		{#if !isLoading}
