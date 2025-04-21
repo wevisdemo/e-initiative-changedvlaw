@@ -3,12 +3,12 @@ export default {
 	metadata: {
 		title: 'Change DV Law',
 		description:
-			'ลงชื่อเสนอร่าง พ.ร.บ. คุ้มครองผู้ถูกกระทำด้วยความรุนแรงในครอบครัวฉบับใหม่(ภาคประชาชน)',
+			'ลงชื่อเสนอร่าง พ.ร.บ. คุ้มครองผู้ถูกกระทำด้วยความรุนแรงในครอบครัวฉบับใหม่(ฉบับภาคประชาชน)',
 		siteUrl: 'https://changedvlaw.com',
 		previewImageUrl: 'https://changedvlaw.com/og.png',
 	},
 	petition: {
-		endDate: new Date('2025-06-15'),
+		endDate: new Date('2025-06-30'),
 		expectedSignatures: 20000,
 		offline: {
 			formUrl: 'petition-form.pdf',
