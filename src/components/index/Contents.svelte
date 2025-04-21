@@ -8,7 +8,7 @@
 	</h2>
 	<div class="mb-8 flex justify-center">
 		<img
-			src="/content_01.svg"
+			src="/content_01.webp"
 			alt="Change DV Law Logo"
 			class=" w-[280px] md:w-[300px]"
 		/>
@@ -66,7 +66,7 @@
 	<div class=" flex flex-col md:flex-row">
 		<div class="text-center">
 			<img
-				src="/content_02.svg"
+				src="/content_02.webp"
 				alt="Point 1"
 				class="mx-auto mb-4 w-[320px] md:mr-5"
 			/>
@@ -84,7 +84,7 @@
 	<div class=" flex flex-col md:flex-row">
 		<div class="text-center">
 			<img
-				src="/content_03.svg"
+				src="/content_03.webp"
 				alt="Point 2"
 				class="mx-auto mb-4 w-[320px] md:mr-5"
 			/>
@@ -103,7 +103,7 @@
 	<div class=" flex flex-col md:flex-row">
 		<div class="text-center">
 			<img
-				src="/content_04.svg"
+				src="/content_04.webp"
 				alt="Point 3"
 				class="mx-auto mb-4 w-[320px] md:mr-5"
 			/>
@@ -122,7 +122,7 @@
 	<div class=" flex flex-col md:flex-row">
 		<div class="text-center">
 			<img
-				src="/content_05.svg"
+				src="/content_05.webp"
 				alt="Point 4"
 				class="mx-auto mb-4 w-[320px] md:mr-5"
 			/>
@@ -140,7 +140,7 @@
 	<div class=" flex flex-col md:flex-row">
 		<div class="text-center">
 			<img
-				src="/content_06.svg"
+				src="/content_06.webp"
 				alt="Point 5"
 				class="mx-auto mb-4 w-[320px] md:mr-5"
 			/>
@@ -159,7 +159,7 @@
 	<div class=" flex flex-col md:flex-row">
 		<div class="text-center">
 			<img
-				src="/content_07.svg"
+				src="/content_07.webp"
 				alt="Point 6"
 				class="mx-auto mb-4 w-[320px] md:mr-5"
 			/>
