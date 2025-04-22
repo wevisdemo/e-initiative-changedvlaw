@@ -3,7 +3,7 @@ export default {
 	metadata: {
 		title: 'Change DV Law',
 		description:
-			'ลงชื่อเสนอร่าง พ.ร.บ. คุ้มครองผู้ถูกกระทำด้วยความรุนแรงในครอบครัวฉบับใหม่(ฉบับภาคประชาชน)',
+			'ลงชื่อเสนอร่าง พ.ร.บ. คุ้มครองผู้ถูกกระทำด้วยความรุนแรงในครอบครัวฉบับใหม่ฉบับภาคประชาชน',
 		siteUrl: 'https://changedvlaw.com',
 		previewImageUrl: 'https://changedvlaw.com/og.png',
 	},
