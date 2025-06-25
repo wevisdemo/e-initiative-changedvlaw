@@ -6,6 +6,8 @@ import PenIcon from '../icons/PenIcon.svelte';
 import { dayElapsed, isCampaignEnded } from '../../utils/campaign';
 import { countSubmittedDocuments } from '../../utils/firebase';
 import Sharer from '../Sharer.svelte';
+
+const submissionCount = await countSubmittedDocuments();
 ---
 
 <SectionContainer
@@ -35,7 +37,7 @@ import Sharer from '../Sharer.svelte';
 		<div class="flex flex-col gap-2">
 			<div>
 				<p class="heading-responsive-02">
-					ลงแล้ว {countSubmittedDocuments()} คน
+					ลงแล้ว {submissionCount.toLocaleString()} คน
 				</p>
 				<p class="body-03-regular">
 					{dayElapsed > 0 && <>ภายใน </>}
